@@ -18,6 +18,7 @@ app.use(function(req,res,next){
 let items = [
     {id:uuidv4(),item:'Learn abouts PWAs'},
     {id:uuidv4(),item:'Make an awesome app'},
+    {id:uuidv4(),item:'Auto deploy on heroku'}
 ];
 
 app.get('/',(req,res)=>{
